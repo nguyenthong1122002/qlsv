@@ -1,0 +1,11 @@
+.error-message{
+    color:red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+    position:absolute;
+    padding : 48px 0px 48px 0px;
+}
+input::placeholder{
+    font-size: 13px;
+}

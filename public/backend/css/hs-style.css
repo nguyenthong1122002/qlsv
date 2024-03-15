@@ -1,0 +1,80 @@
+.h_title{
+    margin:0px 0px 15px 0px;
+}
+.container{
+    max-width: 100%;
+    max-height:100%;
+    margin: 0px;
+    margin-left:15%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.textbox{
+    width :400px;
+    border-radius: 10px;
+    border: 2px solid #dddfe2;
+    padding: 6px 8px;
+}
+.textbox::placeholder{
+    color: #939393;
+}
+.s_button{
+    background-color:#42b72a;
+    border: hidden;
+    border-radius:10px;
+    padding: 6px 8px;
+    text-align: center;
+    color: #fff;
+}
+.s_button:hover{
+    background-color: #45a228;
+}
+.them_hs{
+    background-color:#0866ff;
+    border: hidden;
+    border-radius:10px;
+    padding: 6px 8px;
+    text-align: center;
+    color: #fff;
+    margin:10px 0px 10px 0px;
+}
+.them_hs:hover{
+    background-color: #166fe5;
+}
+table, th {
+    border: 2px solid #dddfe2;
+    padding: 4px 6px;
+    background-color:#343a40;
+    color :#fff;
+    margin : 20px 0px 0px 0px;
+}
+td{
+    border: 2px solid #dddfe2;
+    padding: 4px 6px;
+    background-color:#fff;
+    color: #000;
+    text-align: left;
+    margin : 0px 0px 0px 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.btn{
+    text-align: center;
+}
+.fix_btn{
+    background-color: #45a228;
+    color : #fff;
+    border: hidden;
+    border-radius: 10px;
+    padding: 4px 8px;
+}
+.del_btn{
+    background-color: red;
+    color : #fff;
+    border: hidden;
+    border-radius: 10px;
+    padding: 4px 8px;
+}

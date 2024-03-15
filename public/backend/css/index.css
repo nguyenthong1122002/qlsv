@@ -1,0 +1,42 @@
+*{
+    font-family: UTM Neo Sans IntelBold;
+}
+@font-face {
+    font-family: UTM Neo Sans IntelBold;
+    src: url(UTM\ Neo\ Sans\ IntelBold.ttf);
+}
+body,ul {
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical.navigation {
+    background-color: #343a40;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.vertical.navigation h2 {
+    margin-bottom: 20px;
+}
+.vertical.navigation ul {
+    list-style: none;
+    padding: 0px;
+    background-color:#343a40 ;
+}
+.vertical.navigation a {
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius:10px ;
+}
+
+.vertical.navigation a:hover {
+    background-color: #494e53;
+}
